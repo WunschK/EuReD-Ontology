@@ -47,6 +47,14 @@ crm:P70i_documents a rdf:Property ;
     rdfs:range crm:E5_Event ;
     rdfs:comment "Links a document to an event it describes or records." .
 
+# P92 brought into existence - Linking Documents to Time Primitives
+crm:P92_brought_into_existence a rdf:Property ;
+    rdfs:label "Brought Into Existence" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E61_Time_Primitive ;
+    rdfs:comment "Links a document to the time it was created or brought into existence." .
+
+
 # E5 Event - Historical Events
 crm:E5_Event a rdfs:Class ;
     rdfs:label "Historical Event" ;
