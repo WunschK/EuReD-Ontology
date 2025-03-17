@@ -1,0 +1,58 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# The Münsterer Vertrag as a Historical Document (E31)
+<http://purl.ulb.tu-darmstadt.de/vp/a000008-0207> a crm:E31_Document ;
+    rdfs:label "Münsterer Vertrag" ;
+    crm:P1_is_identified_by "Münsterer Vertrag" ;
+    crm:P72_has_language "Deutsch" ;
+    crm:P92_brought_into_existence "1533-02-14"^^xsd:date ;
+    crm:P6_valid_in <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/muenster> ;
+    crm:P11_had_participant 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/philipp_hessen>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/franz_waldeck>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/karl_v>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/johann_bueren>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/hermann_mengersen>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/arnold_ii_bentheim>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/arnd_raesfeld>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/johann_graes>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/dyckhennick_clas>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/johann_recke>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/franz_wendt>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/krause_joachim>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/selcker_johan>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/jaspar_korff>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/goddert_schedelich>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/heinrich_muenster>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/joachim_senden>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/per/johann_vischering> ;
+    crm:P67_refers_to 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/hessen_landgrafschaft>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/katzenelnbogen_grafschaft>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/muenster_hochstift>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/osnabrueck_hochstift>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/minden_hochstift>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/muenster>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/heiliges_roemisches_reich>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/sankt_lamberti>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/sankt_ludgeri>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/ueberwasserkirche>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/sankt_martini>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/nuernberg>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/regensburg>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/bueren>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/raesfeld>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/coesfeld>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/duelmen>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/steinfurt>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/warendorf>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/bentheim_grafschaft>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/senden>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/waldeck_grafschaft>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/davensberg>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/graes>, 
+        <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/pla/vischering> ;
+    crm:P70i_is_documented_in <https://tueditions.ulb.tu-darmstadt.de/v/pa000008/eve/#anstand_nuernberg_1532> .

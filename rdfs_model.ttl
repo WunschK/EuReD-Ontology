@@ -1,0 +1,63 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf.syntax-ns# .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# E31 Document - Peace Agreement
+crm:E31_Document a rdfs:Class ;
+    rdfs:label "Historical Document" ;
+    rdfs:comment "A written or recorded artifact containing historical or legal information." .
+
+# E42 Identifier - Unique identifiers for documents
+crm:E42_Identifier a rdfs:Class ;
+    rdfs:label "Identifier" ;
+    rdfs:comment "A unique code, reference, or name assigned to an entity for identification purposes." .
+
+# P1 is identified by - Linking Documents to Identifiers
+crm:P1_is_identified_by a rdf:Property ;
+    rdfs:label "Has Identifier" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E42_Identifier ;
+    rdfs:comment "This property links a document to an identifier, such as a catalog number or a unique reference." .
+
+# P6 valid in - Linking Documents to Places
+crm:P6_valid_in a rdf:Property ;
+    rdfs:label "Valid In" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E53_Place ;
+    rdfs:comment "Indicates the place where a document is considered valid or relevant." .
+
+# P11 had participant - Linking Documents to People
+crm:P11_had_participant a rdf:Property ;
+    rdfs:label "Had Participant" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E21_Person ;
+    rdfs:comment "Links a document to people who were involved in its creation, negotiation, or signing." .
+
+# P67 refers to - Linking Documents to Places of Relevance
+crm:P67_refers_to a rdf:Property ;
+    rdfs:label "Refers To" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E53_Place ;
+    rdfs:comment "Indicates places mentioned or relevant in the document." .
+
+# P70i documents - Linking Events to Documents
+crm:P70i_documents a rdf:Property ;
+    rdfs:label "Documents Event" ;
+    rdfs:domain crm:E31_Document ;
+    rdfs:range crm:E5_Event ;
+    rdfs:comment "Links a document to an event it describes or records." .
+
+# E5 Event - Historical Events
+crm:E5_Event a rdfs:Class ;
+    rdfs:label "Historical Event" ;
+    rdfs:comment "A significant occurrence, such as a treaty, war, or legal agreement." .
+
+# E21 Person - People involved in historical documents
+crm:E21_Person a rdfs:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "An individual who participated in or is mentioned in historical documents." .
+
+# E53 Place - Locations relevant to historical documents
+crm:E53_Place a rdfs:Class ;
+    rdfs:label "Place" ;
+    rdfs:comment "A geographical location mentioned in or relevant to a document." .
