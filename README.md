@@ -21,8 +21,7 @@ The EuReD Ontology aims to provide a detailed representation of historical peace
 - **Had Participant (P11 had participant)**: Links a document to people who were involved in its creation, negotiation, or signing.
 - **Refers To (P67 refers to)**: Indicates places mentioned or relevant in the document.
 - **Documents Event (P70i documents)**: Links a document to an event it describes or records.
-
-By structuring the data in this manner, the EuReD Ontology helps to reveal connections and patterns in historical peace agreements, offering valuable insights into the processes and contexts of early modern European diplomacy. This repository is a valuable resource for anyone interested in the study of historical peace treaties and the broader field of historical research.
+- **Brought into Existence (P92 brought into existence)**: Specifies the creation data. 
 
 ### Namespaces 
 Currently, the ontology uses generic namespaces, such as example.org, as we are still in the process of defining the namespaces.
