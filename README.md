@@ -1,6 +1,6 @@
 # EuReD: Ontology
 
-This repository contains RDF descriptions of early modern European peace agreements published on [EuReD](https://eured.de/).
+This repository contains RDF descriptions of early modern European peace agreements published which are published [by the University and State Library Darmstadt](https://tueditions.ulb.tu-darmstadt.de/v/pa000008), with information about the project on [eured.de](https://eured.de/).
 
 ## The Ontology
 
